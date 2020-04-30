@@ -21,7 +21,7 @@ A dataset of 60k images having 10 classes, 50k for training and 10k for validati
 Consists of ~8k training images and ~2k testing images, divided almost equally between images of cats and dogs.
 
 **Architecture**
-- All the models used were pretrained on [ImageNet](http://www.image-net.org/) a dataset of ~14M images having 1000 classes.
+- All the models used were pretrained on [ImageNet](http://www.image-net.org/) a dataset of ~1.2M images having 1000 classes.
 - All models except *Inception Resnet V2* were obtained using the [`torchvision.models`](https://pytorch.org/docs/stable/torchvision/models.html) module.
 - The *Inception Resnet V2* obtained from [Cadene/pretrained-models.pytorch](https://github.com/Cadene/pretrained-models.pytorch), a nice collection of many pretrained models.
 - Pytorch was used for this.
